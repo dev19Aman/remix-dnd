@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/sandbox/app/routes/index.tsx?browser", "../../../app/routes/index.tsx"],
+  "sourcesContent": ["export { default } from \"/sandbox/app/routes/index.tsx\";", "export default function Index() {\n  return (\n    <div className=\"m-2\">\n      <h1 className=\"text-2xl font-bold\">Welcome to Remix Starter!</h1>\n    </div>\n  )\n}\n"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAAe,iBAAiB;AAC9B,SACE,oCAAC,OAAD;AAAA,IAAK,WAAU;AAAA,KACb,oCAAC,MAAD;AAAA,IAAI,WAAU;AAAA,KAAqB;AAAA;",
+  "names": []
+}

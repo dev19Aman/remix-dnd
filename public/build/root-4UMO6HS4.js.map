@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/sandbox/app/root.tsx?browser", "../../app/root.tsx"],
+  "sourcesContent": ["export { default, meta } from \"/sandbox/app/root.tsx\";", "import {\n  Links,\n  LiveReload,\n  Meta,\n  Outlet,\n  Scripts,\n  ScrollRestoration,\n} from 'remix'\nimport type { MetaFunction } from 'remix'\n\nexport const meta: MetaFunction = () => {\n  return { title: 'New Remix App' }\n}\n\nexport default function App() {\n  return (\n    <html lang=\"en\">\n      <head>\n        <meta charSet=\"utf-8\" />\n        <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n        <script src=\"https://cdn.tailwindcss.com\"></script>\n        <Meta />\n        <Links />\n      </head>\n      <body>\n        <Outlet />\n        <ScrollRestoration />\n        <Scripts />\n        {process.env.NODE_ENV === 'development' && <LiveReload />}\n      </body>\n    </html>\n  )\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;AAAA;;;ACAA;AAUO,IAAM,OAAqB,MAAM;AACtC,SAAO,EAAE,OAAO;AAAA;AAGH,eAAe;AAC5B,SACE,oCAAC,QAAD;AAAA,IAAM,MAAK;AAAA,KACT,oCAAC,QAAD,MACE,oCAAC,QAAD;AAAA,IAAM,SAAQ;AAAA,MACd,oCAAC,QAAD;AAAA,IAAM,MAAK;AAAA,IAAW,SAAQ;AAAA,MAC9B,oCAAC,UAAD;AAAA,IAAQ,KAAI;AAAA,MACZ,oCAAC,MAAD,OACA,oCAAC,OAAD,QAEF,oCAAC,QAAD,MACE,oCAAC,QAAD,OACA,oCAAC,mBAAD,OACA,oCAAC,SAAD,OAC2C,oCAAC,YAAD;AAAA;",
+  "names": []
+}
