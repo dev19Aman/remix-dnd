@@ -912,7 +912,7 @@ var require_fast_deep_equal = __commonJS({
   }
 });
 
-// browser-route-module:/project/sandbox/app/routes/index.tsx?browser
+// browser-route-module:/workspace/app/routes/index.tsx?browser
 init_react();
 
 // app/routes/index.tsx
@@ -4315,4 +4315,4 @@ export {
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-//# sourceMappingURL=/build/routes/index-QAZ4FNSB.js.map
+//# sourceMappingURL=/build/routes/index-5OHKNTID.js.map

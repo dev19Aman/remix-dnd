@@ -9,7 +9,7 @@ import {
   init_react
 } from "/build/_shared/chunk-6WLHIEDR.js";
 
-// browser-route-module:/project/sandbox/app/root.tsx?browser
+// browser-route-module:/workspace/app/root.tsx?browser
 init_react();
 
 // app/root.tsx
@@ -33,4 +33,4 @@ export {
   App as default,
   meta
 };
-//# sourceMappingURL=/build/root-VHSUVPIO.js.map
+//# sourceMappingURL=/build/root-WPZRD2VP.js.map
